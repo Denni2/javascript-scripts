@@ -1,5 +1,5 @@
 function largestOfFour(arr) {
-  var arr_too = [];
+  var arr_s = [];
   var val;
   for (x=0; x < arr.length; x+=1){
     val = 0;
@@ -10,9 +10,9 @@ function largestOfFour(arr) {
       }
     
   }
-    arr_too.push(val);
+    arr_s.push(val);
 }
-  return arr_too;
+  return arr_s;
 }
 
 largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
